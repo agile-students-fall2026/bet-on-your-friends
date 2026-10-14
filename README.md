@@ -11,7 +11,7 @@ For students and friend groups who enjoy making predictions about each other's l
 - Sufyan Waryah ([sufyanw](https://github.com/sufyanw))
 - Alisha Zaman ([az2924](https://github.com/az2924))
 - Vihaan Agarwal ([VihaanAgarwal](https://github.com/VihaanAgarwal))
-- Nihaal Sunadari ([NISUN05](https://github.com/NISUN05))
+- Nihal Sundari ([NISUN05](https://github.com/NISUN05))
 
 ## How the Project Came To Be
 
