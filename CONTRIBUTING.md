@@ -19,12 +19,12 @@ With that in mind, we agree to:
 
 All changes must be made on separate branches and submitted through Pull Requests targeting the `master` branch.
 
-1. Fork the repository
+1. Clone the shared team repository to your local development environment
 2. Create a feature branch from the latest `master` branch
 3. Make changes and commit them with a descriptive (single line) commit message
 4. Push the feature branch to our GitHub repository
 5. Open a Pull Request targeting our repository's `master` branch
-6. Request a review from another team member, or team members
+6. Request a review from at least one other team member
 7. Address any feedback before merging
 8. Once approved, the author of the Pull Request is responsible for merging it, unless you're a third-party contributor. Then, a team member will merge the pull request for you
 
@@ -43,7 +43,7 @@ Our team uses a ruleset to protect the `master` branch:
 - Keep changes focused on the assigned Issue
 - Follow existing coding conventions and maintain readable code
 - Test changes before submitting a Pull Request
-- Include a Summary and Testing section in each Pull Request description, screenshots/screen recordings if possible
+- Include a Summary and Testing section in each Pull Request description, screenshots/screen recordings when applicable
 - Do not commit passwords, API keys, environment files containing secrets, or unnecessary generated files (check [.gitignore](.gitignore) for what isn't included)
 - Update documentation when changes affect project functionality or setup
 - Do not generate code using AI
@@ -78,6 +78,34 @@ Create and switch into a separate branch for your changes:
 git checkout -b username/short-description
 ```
 
+### Submitting Changes
+
+```
+git add 
+git commit -m "Brief single line description of changes"
+git push -u origin username/short-description
+```
+
+Open a Pull Request against the team's `master` branch, put all of the necessary reviewers, assignees, labels, projects, and assign the corresponding issue. Also, it would be preferred if you use the following markdown template:
+
+```
+@team_member1 @team_member2 @team_member3
+---
+## Summary
+
+- Put a cool summary of changes here
+
+## Testing
+
+- How did you validate that this change is worthy of being merged
+
+## Screenshots
+```
+
+Example Pull Request:
+
+![Example pull request #7 screenshot of description, showing reviewers, assignees, labels, projects, issue attached, and PR description](images/Example%20PR.jpg)
+
 
 ## Building and Testing
 
@@ -87,4 +115,4 @@ TBD
 
 Our team uses the course-designated communication platform (Discord) for project discussions, progress updates, and blockers. Zoom will be used for virtual meetings, if we need to have any.
 
-All commuinication should be done through our team channel in Discord, just to ensure that everyone is well aware of what is going on, and so that the team + course staff have a clear paper trail of communication (e.g. someone does't do their work, doesn't respond in a timely manner, etc.).
+All communication should be done through our team channel in Discord, just to ensure that everyone is well aware of what is going on, and so that the team + course staff have a clear paper trail of communication (e.g. someone doesn't do their work, doesn't respond in a timely manner, etc.).
