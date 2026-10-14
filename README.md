@@ -1,19 +1,36 @@
-# Project Repository
+# Bet on Your Friends
 
-This repository will be used for team projects.
+A web app where friends make predictions about things happening in each other's lives using fake money. For example, "Will Alex get an internship by November?" or "Will Sam go to the gym 10 times this month?" The app keeps track of these predictions so everyone can see who was actually right.
 
-Several sets of instructions are included in this repository. They should each be treated as separate assignments with their own due dates and sets of requirements.
+## Product Vision
 
-1. See the [App Map & Wireframes](instructions-0a-app-map-wireframes.md) and [Prototyping](./instructions-0b-prototyping.md) instructions for the requirements of the initial user experience design of the app.
+For students and friend groups who enjoy making predictions about each other's lives, Bet on Your Friends is a web application that allows users to create private groups, make predictions, and place bets using virtual coins. Unlike traditional betting platforms, our app focuses on friendly competition without involving real money.
 
-1. Delete the contents of this file and replace with the contents of a proper README.md, as described in the [project setup instructions](./instructions-0c-project-setup.md)
+## Core Team Members
 
-1. See the [Sprint Planning instructions](instructions-0d-sprint-planning.md) for the requirements of Sprint Planning for each Sprint.
+- Sufyan Waryah ([sufyanw](https://github.com/sufyanw))
+- Alisha Zaman ([az2924](https://github.com/az2924))
+- Vihaan Agarwal ([VihaanAgarwal](https://github.com/VihaanAgarwal))
+- Nihaal Sunadari ([NISUN05](https://github.com/NISUN05))
 
-1. See the [Front-End Development instructions](./instructions-1-front-end.md) for the requirements of the initial Front-End Development.
+## How the Project Came To Be
 
-1. See the [Back-End Development instructions](./instructions-2-back-end.md) for the requirements of the initial Back-End Development.
+Vihaan originally came up with the idea for the project. The inspiration came from him wanting to build an app for his friends and classmates at NYU, especially friend groups that already make predictions in conversation or group chats.
 
-1. See the [Database Integration instructions](./instructions-3-database.md) for the requirements of integrating a database into the back-end.
+Other students voted for his project in class, and we all got placed in the same team!
 
-1. See the [Deployment instructions](./instructions-4-deployment.md) for the requirements of deploying an app.
+## Contributing
+
+All team members follow a feature branch workflow. Changes are developed on separate branches, submitted through Pull Requests, and reviewed by another team member. Once approved, the author of the Pull Request is responsible for merging it into the `master` branch.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines and development instructions.
+
+## Building & Testing
+
+TBD
+
+## Resources
+
+- [Original Project Proposal](https://github.com/VihaanAgarwal/project-proposal)
+- Agile Software Development & DevOps (CSCI-UA 430) [Course Schedule](https://knowledge.kitchen/content/courses/agile-development-and-devops/schedule/)
+- [Prediction Market - Wikipedia](https://en.wikipedia.org/wiki/Prediction_market)
